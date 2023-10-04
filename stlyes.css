@@ -1,0 +1,15 @@
+#overskrift {
+    font-size: 500%;
+    text-align: center;
+    color: white;
+    border-bottom: 5px;
+    border-color: white;
+    border-style: ridge;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+}
+
+body {
+    background-color: black;
+}
