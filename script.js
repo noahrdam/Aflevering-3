@@ -9,8 +9,7 @@ console.log(mainContentElement);
 mainContentElement.removeChild(contentElement);
 
 
-
-fetchContent("/albums.json").then((data) => {
+fetchContent("albums.json").then((data) => {
   for (let i = 0; i < data.length; i++) {
     let elementToInsert = contentElement.cloneNode(true);
     elementToInsert.id = data[i].genre;
@@ -19,7 +18,7 @@ fetchContent("/albums.json").then((data) => {
     let albumcoverToInsert = "<img src='" + data[i].albumcover + "'>";
     let artistNameToInsert = "<p class='inner-content'>" + data[i].artistName + "</p>";
     let genreToInsert = "<p class='inner-content genre'>" + data[i].genre + "</p>";
-    let artistWebsiteToInsert = "<a href='"+data[i].artistWebsite+"'> <p class='inner-content'>" + data[i].artistWebsite + "</p> </a>";
+    let artistWebsiteToInsert = "<a href='"+data[i].artistWebsite+"' target='_blank'> <p class='inner-content'>" + data[i].artistWebsite + "</p> </a>";
     let productionYearToInsert = "<p class='inner-content'>" + data[i].productionYear + "</p>";
   
 
