@@ -24,15 +24,15 @@ fetchContent("/albums.json").then((data) => {
     let elementToInsert = contentElement.cloneNode(true);
     elementToInsert.id = i;
 
-    let headingToInsert = "<h1 class='title'>" + data[i].heading + "</h1>";
+    let albumNameToInsert = "<h1 class='title'>" + data[i].albumName + "</h1>";
 
-    let contentToInsert = "";
-
-    if (data[i].author == "Foo Bar") {
-      contentToInsert = "<p class='inner-content'>CENSORED</p>";
-    } else {
-      contentToInsert = "<p class='inner-content'>" + data[i].content + "</p>";
-    }
+    let albumcoverToInsert = "<img src='" + data[i].albumcover + "'>";
+    let artistNameToInsert = "<p class='inner-content'>" + data[i].artistName + "</p>";
+    let genreToInsert = "<p class='inner-content'>" + data[i].genre + "</p>";
+    let artistWebsiteToInsert = "<a href='"+data[i].artistWebsite+"'> <p class='inner-content'>" + data[i].artistWebsite + "</p> </a>";
+    let productionYearToInsert = "<p class='inner-content'>" + data[i].productionYear + "</p>";
+    let trackListToInsert = "<p class='inner-content'>" + data[i].trackList.trackTitle + "</p>";
+    
 
     let authorToInsert = "<p class='author'>" + data[i].author + "</p>";
 
@@ -50,7 +50,7 @@ fetchContent("/albums.json").then((data) => {
       "</p>";
 
     let htmlToInsert =
-      headingToInsert + contentToInsert + authorToInsert + contactToInsert;
+    albumNameToInsert + albumcoverToInsert + artistNameToInsert + genreToInsert + artistWebsiteToInsert + productionYearToInsert + trackListToInsert; 
 
     elementToInsert.innerHTML = htmlToInsert;
 
