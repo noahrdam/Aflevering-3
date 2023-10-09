@@ -4,15 +4,7 @@
     "albumName": "Greatest hits",
     "artistName": "ZZ-top",
     "artistWebsite": "http://www.zztop.com/",
-    "albumcoverCW": "Billeder/crazyworld.jpg",
-    "albumcoverHS": "Billeder/hjertestarter.jpg",
-    "albumcoverJR": "Billeder/joyride.jpg",
-    "albumcoverME": "Billeder/metoara.png",
-    "albumcoverSWW": "Billeder/slipperywhenwet.jpg",
-    "albumcoverTRE": "Billeder/therazorsedge.png",
-    "albumcoverTG": "Billeder/topgun.jpg",
-    "albumcoverUS": "Billeder/usadsb.png",
-    "albumcoverWC": "Billeder/wildcherry.jpg",
+    "albumcoverGH": "Billeder/greatesthits.jpg", 
     "productionYear": 1992,
     "genre": ["Rock","Pop"],
     "trackList": [
@@ -131,6 +123,7 @@
     "albumName": "Wild Cherry",
     "artistName": "Wild Cherry",
     "artistWebsite": "http://en.wikipedia.org/wiki/Wild_Cherry_%28band%29",
+    "albumcoverWC": "Billeder/wildcherry.jpg",
     "productionYear": 1976,
     "genre": ["Pop"],
     "trackList": [
@@ -195,6 +188,7 @@
     "albumName": "Meteora",
     "artistName": "Linkin Park",
     "artistWebsite": "http://www.linkinpark.com/",
+    "albumcoverME": "Billeder/metoara.png",
     "productionYear": 2003,
     "genre": ["Rock","Metal","Indie"],
     "trackList": [
@@ -280,6 +274,7 @@
     "albumName": "Top gun - motion picture soundtrack",
     "artistName": "Various",
     "artistWebsite": "NIL",
+    "albumcoverTG": "Billeder/topgun.jpg",
     "productionYear": 1989,
     "genre": ["Rock","Soundtrack"],
     "trackList": [
@@ -350,6 +345,7 @@
     "albumName": "Hjertestarter - bonus edition",
     "artistName": "Nephew",
     "artistWebsite": "http://www.nephew.dk",
+    "albumcoverHS": "Billeder/hjertestarter.jpg",
     "productionYear": 2013,
     "genre": ["Rock","Indie"],
     "trackList": [
@@ -426,6 +422,7 @@
     "albumName": "USADSB",
     "artistName": "Nephew",
     "artistWebsite": "http://www.nephew.dk",
+    "albumcoverUS": "Billeder/usadsb.png",
     "productionYear": 2004,
     "genre": ["Rock","Indie"],
     "trackList": [
@@ -496,6 +493,7 @@
     "albumName": "Joyride",
     "artistName": "Roxette",
     "artistWebsite": "http://www.roxette.se/",
+    "albumcoverJR": "Billeder/joyride.jpg",
     "productionYear": 1991,
     "genre": ["Pop","Indie","Dance"],
     "trackList": [
@@ -596,6 +594,7 @@
     "albumName": "Slippery when wet",
     "artistName": "Bon Jovi",
     "artistWebsite": "http://www.bonjovi.com/",
+    "albumcoverSWW": "Billeder/slipperywhenwet.jpg",
     "productionYear": 2010,
     "genre": ["Pop","Rock"],
     "trackList": [
@@ -684,6 +683,7 @@
     "albumName": "Crazy world",
     "artistName": "Scorpions",
     "artistWebsite": "http://www.the-scorpions.com/english/",
+    "albumcoverCW": "Billeder/crazyworld.jpg",
     "productionYear": 1990,
     "genre": ["Metal","Rock"],
     "trackList": [
@@ -760,6 +760,7 @@
     "albumName": "The razors edge",
     "artistName": "AC/DC",
     "artistWebsite": "http://www.acdc.com/us/home",
+    "albumcoverTRE": "Billeder/therazorsedge.png",
     "productionYear": 1990,
     "genre": ["Rock"],
     "trackList": [
