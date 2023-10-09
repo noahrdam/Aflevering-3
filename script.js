@@ -12,3 +12,13 @@ fetch('/albums.json')
     .then(response => response.json())
     .then(response => console.log(response));
 
+
+
+// Eksempel på hide and show af genre
+let Rock = document.getElementsByClassName("Rock")    
+if(Rock.style.display === "none"){
+    Rock.style.display = "block";}
+
+else{Rock.style.display ="none"}
+   
+
