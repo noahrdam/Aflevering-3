@@ -25,18 +25,20 @@ fetchContent("/albums.json").then((data) => {
     elementToInsert.id = i;
 
     let albumNameToInsert = "<h1 class='title'>" + data[i].albumName + "</h1>";
-
     let albumcoverToInsert = "<img src='" + data[i].albumcover + "'>";
     let artistNameToInsert = "<p class='inner-content'>" + data[i].artistName + "</p>";
     let genreToInsert = "<p class='inner-content'>" + data[i].genre + "</p>";
     let artistWebsiteToInsert = "<a href='"+data[i].artistWebsite+"'> <p class='inner-content'>" + data[i].artistWebsite + "</p> </a>";
     let productionYearToInsert = "<p class='inner-content'>" + data[i].productionYear + "</p>";
-    let trackListToInsert = "<p class='inner-content'>" + data[i].trackList.trackTitle + "</p>";
+  
 
-    for (let t = 0; t < data.trackList.length; t++) {
-      let trackNameToInsert = trackList[t] 
-      trackNameToInsert.id = t;
+    let trackListToInsert = "<div class = 'inner-content'>"
+    for (let t = 0; t < data[i].trackList.length; t++) {
+      let trackNameToInsert = data[i].trackList[t].trackTitle; 
+      trackListToInsert += "<p>" + trackNameToInsert + "</p>";
+
     }
+trackListToInsert += "<div>";
 
     let authorToInsert = "<p class='author'>" + data[i].author + "</p>";
 
