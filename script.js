@@ -45,7 +45,7 @@ fetchContent("/albums.json").then((data) => {
 });
 
 function addCSSRule() {
-  const genre = document.getElementById('Genres').value;
+  const genre = document.getElementById('genreSelect').value;
   const styleSheet = document.styleSheets[0];
   styleSheet.insertRule('.allAlbums { display: none; }', styleSheet.cssRules.length);
   styleSheet.insertRule('.' + genre + ' { display: block; }', styleSheet.cssRules.length);
