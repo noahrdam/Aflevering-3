@@ -1,36 +1,39 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <title>Aflevering 3</title>
     <link href="styles.css" media="screen" rel="stylesheet" />
     <script src="albums.json"></script>
-  </head>
-  <body>
+</head>
+
+<body>
     <div>
-      <h1 id="titel">Musikalbumsarkiv</h1>
+        <h1 id="titel">Musikalbumsarkiv</h1>
     </div>
     <div id="main-content-area">
-      <div id="0" class="content">
+        <div id="0" class="content">
 
-      </div>
+        </div>
     </div>
 
     <div id="sidebar">
-      <div id="genreDropdown">
-        <select id="genreSelect">
-            <option value="">All</option>
-            <option value="">Rock</option>
-            <option value="">Pop</option>
-            <option value="">Dance</option>
-            <option value="">Metal</option>
-            <option value="">Indie</option>
-            <option value="">Soundtrack</option>
-        </select>
-    </div>
-    <div id="albumContainer"></div>
+        <div id="genreDropdown">
+            <select id="genreSelect" onchange="addCSSRule()">
+                <option value="">All</option>
+                <option value="">Rock</option>
+                <option value="">Pop</option>
+                <option value="">Dance</option>
+                <option value="">Metal</option>
+                <option value="">Indie</option>
+                <option value="">Soundtrack</option>
+            </select>
+        </div>
+        <div id="albumContainer"></div>
     </div>
 
     <script src="script.js"></script>
-  </body>
+</body>
+
 </html>
