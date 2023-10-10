@@ -1,10 +1,6 @@
 let contentElement = document.getElementsByClassName("content")[0];
 
-console.log(contentElement);
-
 const mainContentElement = document.getElementById("main-content-area");
-
-console.log(mainContentElement);
 
 mainContentElement.removeChild(contentElement);
 
@@ -40,7 +36,6 @@ fetchContent("/albums.json").then((data) => {
 
 
 
-    console.log("element added with id: " + elementToInsert.id);
   }
 });
 
