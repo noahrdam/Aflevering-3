@@ -6,9 +6,7 @@
     "artistWebsite": "http://www.zztop.com/",
     "albumcover": "Billeder/greatesthits.jpg",
     "productionYear": 1992,
-    "genre": [
-      "Pop"
-    ],
+    "genre": "Pop",
     "trackList": [
       {
         "trackNumber": 1,
@@ -109,9 +107,7 @@
     "artistWebsite": "http://en.wikipedia.org/wiki/Wild_Cherry_%28band%29",
     "albumcover": "Billeder/wildcherry.jpg",
     "productionYear": 1976,
-    "genre": [
-      "Pop"
-    ],
+    "genre": "Pop",
     "trackList": [
       {
         "trackNumber": 1,
@@ -167,11 +163,7 @@
     "artistWebsite": "http://www.linkinpark.com/",
     "albumcover": "Billeder/metoara.png",
     "productionYear": 2003,
-    "genre": [
-      "Rock",
-      "Metal",
-      "Indie"
-    ],
+    "genre": "Indie",
     "trackList": [
       {
         "trackNumber": 1,
@@ -247,10 +239,7 @@
     "artistWebsite": "NIL",
     "albumcover": "Billeder/topgun.jpg",
     "productionYear": 1989,
-    "genre": [
-      "Rock",
-      "Soundtrack"
-    ],
+    "genre": "Soundtrack",
     "trackList": [
       {
         "trackNumber": 1,
@@ -311,10 +300,7 @@
     "artistWebsite": "http://www.nephew.dk",
     "albumcover": "Billeder/hjertestarter.jpg",
     "productionYear": 2013,
-    "genre": [
-      "Rock",
-      "Indie"
-    ],
+    "genre": "Rock",
     "trackList": [
       {
         "trackNumber": 1,
@@ -380,10 +366,7 @@
     "artistWebsite": "http://www.nephew.dk",
     "albumcover": "Billeder/usadsb.png",
     "productionYear": 2004,
-    "genre": [
-      "Rock",
-      "Indie"
-    ],
+    "genre": "Indie",
     "trackList": [
       {
         "trackNumber": 1,
@@ -444,11 +427,7 @@
     "artistWebsite": "http://www.roxette.se/",
     "albumcover": "Billeder/joyride.jpg",
     "productionYear": 1991,
-    "genre": [
-      "Pop",
-      "Indie",
-      "Dance"
-    ],
+    "genre": "Dance",
     "trackList": [
       {
         "trackNumber": 1,
@@ -534,10 +513,7 @@
     "artistWebsite": "http://www.bonjovi.com/",
     "albumcover": "Billeder/slipperywhenwet.jpg",
     "productionYear": 2010,
-    "genre": [
-      "Pop",
-      "Rock"
-    ],
+    "genre": "Rock",
     "trackList": [
       {
         "trackNumber": 1,
@@ -613,9 +589,7 @@
     "artistWebsite": "http://www.the-scorpions.com/english/",
     "albumcover": "Billeder/crazyworld.jpg",
     "productionYear": 1990,
-    "genre": [
-      "Metal"
-    ],
+    "genre": "Metal",
     "trackList": [
       {
         "trackNumber": 1,
